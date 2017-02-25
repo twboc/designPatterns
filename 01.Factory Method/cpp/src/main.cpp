@@ -12,10 +12,10 @@ int main(int argc, char** argv) {
     shape* circle = ShapeFactory->getShape("circle");
     circle->draw();
     
-    shape* square = ShapeFactory->getShape("circle");
+    shape* square = ShapeFactory->getShape("square");
     square->draw();
     
-    shape* rectangle = ShapeFactory->getShape("circle");
+    shape* rectangle = ShapeFactory->getShape("rectangle");
     rectangle->draw();
     
     std::cout << "This is factory method" << std::endl;

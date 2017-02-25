@@ -1,4 +1,0 @@
-/home/hubert/projects/designPatterns/01.FactoryMethod/cpp;
-/bin/sh: 1: /home/hubert/projects/designPatterns/01.FactoryMethod/cpp: Permission denied
-Makefile:9: recipe for target 'main' failed
-make: *** [main] Error 126
