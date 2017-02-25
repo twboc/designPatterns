@@ -7,7 +7,7 @@ mainFile = $(INCLUDE_PATH)main.cpp
 
 
 developer: shapeFactory.o main.o
-	$(CC) shapeFactory.o main.o $(FLAGS) -o bin/factoryMethod;
+	$(CC) shapeFactory.o main.o $(FLAGS) -o bin/FactoryMethod;
 	
 main.o: 
 	$(CC) -c $(mainFile);
