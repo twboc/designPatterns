@@ -1,0 +1,16 @@
+# -*- MakeFile -*-
+
+colorFactory.o: color.o red.o green.o blue.o
+	$(CC) -c $(INCLUDE_PATH)factory/colorFactory.cpp
+
+color.o:
+	$(CC) -c $(INCLUDE_PATH)color/color.cpp
+	
+red.o: color.o
+	$(CC) -c $(INCLUDE_PATH)color/red.cpp
+	
+green.o: color.o
+	$(CC) -c $(INCLUDE_PATH)color/green.cpp
+
+blue.o: color.o
+	$(CC) -c $(INCLUDE_PATH)color/green.cpp

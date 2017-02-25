@@ -1,0 +1,14 @@
+shapeFactory.o: shape.o circle.o square.o rectangle.o
+	$(CC) -c $(INCLUDE_PATH)factory/shapeFactory.cpp
+	
+shape.o:
+	$(CC) -c $(INCLUDE_PATH)shape/shape.cpp
+
+circle.o: shape.o
+	$(CC) -c $(INCLUDE_PATH)shape/circle.cpp
+	
+square.o: shape.o
+	$(CC) -c $(INCLUDE_PATH)shape/square.cpp
+	
+rectangle.o: shape.o
+	$(CC) -c $(INCLUDE_PATH)shape/rectangle.cpp
