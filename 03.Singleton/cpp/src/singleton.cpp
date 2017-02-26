@@ -7,6 +7,7 @@ singleton* singleton::getInstance(){
    if (!instance) {
        instance = new singleton;
    }
+   std::cout << "Get instance called!" << std::endl;
    return instance;
 }
 
