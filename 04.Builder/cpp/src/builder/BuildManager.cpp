@@ -4,9 +4,7 @@
 #include "Builder.h"
 #include "../car/Car.cpp"
 
-BuildManager::BuildManager() {
-    std::cout << "Instance of thest" << std::endl;
-}
+BuildManager::BuildManager() {}
 BuildManager::BuildManager(const BuildManager& orig) { }
 BuildManager::~BuildManager() { }
 
