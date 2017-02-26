@@ -1,0 +1,10 @@
+# -*- MakeFile -*-
+
+Car.o:
+	$(CC) -c $(INCLUDE_PATH)car/Car.cpp;
+Body.o:
+	$(CC) -c $(INCLUDE_PATH)car/Body.cpp;
+Engine.o:
+	$(CC) -c $(INCLUDE_PATH)car/Engine.cpp;
+Wheel.o:
+	$(CC) -c $(INCLUDE_PATH)car/Wheel.cpp;
