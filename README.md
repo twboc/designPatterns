@@ -18,7 +18,7 @@ Design patterns with code examples in different languages.
 	- java,
 
 05. Prototype
-	- c++ - not finished => segmentation fault TO BE REWRITTEN,
+	- c++ - not finished => segmentation fault; TO BE REWRITTEN;
 	- java,
 
 06. Adapter
@@ -26,3 +26,9 @@ Design patterns with code examples in different languages.
 	- java,
 
 07. Bridge
+	- c++,
+	- java,
+
+08. Filter
+	- c++,
+	- java,
