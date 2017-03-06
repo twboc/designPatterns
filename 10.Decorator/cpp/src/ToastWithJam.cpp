@@ -9,6 +9,7 @@ ToastWithJam::ToastWithJam(Toast* toast) {
 }
 ToastWithJam::ToastWithJam(const ToastWithJam& orig) { }
 ToastWithJam::~ToastWithJam() { 
+    std::cout << "Eat jam..." << std::endl;
     delete wrappee;
 }
 

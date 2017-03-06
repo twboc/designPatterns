@@ -9,6 +9,7 @@ ToastBrownBread::ToastBrownBread(Toast* tost) {
 }
 ToastBrownBread::ToastBrownBread(const ToastBrownBread& orig) { }
 ToastBrownBread::~ToastBrownBread() { 
+    std::cout << "Eat brown bread..." << std::endl;
     delete wrappee;
 }
 

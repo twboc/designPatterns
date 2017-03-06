@@ -12,6 +12,7 @@ ToastWithButter::ToastWithButter(Toast* tost) {
 }
 ToastWithButter::ToastWithButter(const ToastWithButter& orig) { }
 ToastWithButter::~ToastWithButter() { 
+    std::cout << "Eat butter..." << std::endl;
     delete wrappee;
 }
 

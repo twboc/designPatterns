@@ -24,6 +24,11 @@ int main(int argc, char** argv) {
     toastWithSugar->myIngredients();
     
     std::cout << std:: endl;
+    std::cout << "Go on... EAT IT!!!" << std:: endl;
+    std::cout << std:: endl;
+    delete toastWithSugar;
+    
+    std::cout << std:: endl;
     std::cout << std:: endl;
     std::cout << "Make me a light American toast!" << std:: endl;
     std::cout << std:: endl;
@@ -31,6 +36,11 @@ int main(int argc, char** argv) {
     Toast* americanToast = new ToastWithSugar();
     std::cout << "What ingredients do you have???" << std::endl;
     americanToast->myIngredients();
+    
+    std::cout << std:: endl;
+    std::cout << "Go on... EAT IT!!!" << std:: endl;
+    std::cout << std:: endl;
+    delete americanToast;
     
     std::cout << std:: endl;
     std::cout << std:: endl;
@@ -42,6 +52,11 @@ int main(int argc, char** argv) {
     
     std::cout << "What ingredients do you have???" << std::endl;
     frenchToast->myIngredients();
+    
+    std::cout << std:: endl;
+    std::cout << "Go on... EAT IT!!!" << std:: endl;
+    std::cout << std:: endl;
+    delete frenchToast;
     
     
     return 0;
