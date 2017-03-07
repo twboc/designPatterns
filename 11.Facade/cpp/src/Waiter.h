@@ -10,7 +10,10 @@ public:
     Waiter();
     Waiter(const Waiter& orig);
     virtual ~Waiter();
-    void orderAndEat();
+    void orderAndEatAllToasts();
+    void orderAndEatFatPolishToast();
+    void orderAndEatFrenchToast();
+    void orderAndEatSpanishToast();
 private:
     Toast* fatPolishToast;
     Toast* frenchToast;

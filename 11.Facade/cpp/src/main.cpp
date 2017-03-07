@@ -28,9 +28,17 @@ int main(int argc, char** argv) {
     std::cout << std::endl;
     Waiter* waiter = new Waiter();
     
-    waiter->orderAndEat();
+    waiter->orderAndEatAllToasts();
     
     
+    std::cout << "Now I order One By one!!!" << std::endl;
+    std::cout << std::endl;
+    waiter->orderAndEatFatPolishToast();
+    waiter->orderAndEatSpanishToast();
+    std::cout << std::endl;
+    std::cout << "I don't want French toast anymore!!!" << std::endl;
+    std::cout << std::endl;
+
     std::cout.flush();
     
     return 0;

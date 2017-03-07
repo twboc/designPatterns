@@ -8,8 +8,18 @@ Waiter::Waiter() {
 Waiter::Waiter(const Waiter& orig) { }
 Waiter::~Waiter() { }
 
-void Waiter::orderAndEat(){
+void Waiter::orderAndEatAllToasts(){
     fatPolishToast->eatToast();
     frenchToast->eatToast();
+    spanishToast->eatToast();
+};
+
+void Waiter::orderAndEatFatPolishToast(){
+    fatPolishToast->eatToast();
+};
+void Waiter::orderAndEatFrenchToast(){
+    frenchToast->eatToast();
+};
+void Waiter::orderAndEatSpanishToast(){
     spanishToast->eatToast();
 };
