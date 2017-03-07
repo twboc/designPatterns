@@ -32,3 +32,15 @@ Design patterns with code examples in different languages.
 08. Filter
 	- c++,
 	- java,
+
+09. Composite
+	- c++,
+	- java,
+
+10. Decorator
+	- c++,
+	- java,
+
+11. Facade
+	- c++,
+	- java,
