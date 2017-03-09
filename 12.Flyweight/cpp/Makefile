@@ -7,7 +7,7 @@ mainFile = $(INCLUDE_PATH)main.cpp
 
 
 developer: main.o
-	$(CC) main.o $(FLAGS) -o bin/FactoryMethod;
+	$(CC) main.o $(FLAGS) -o bin/Flyweight;
 	
 main.o: toastFactory.o
 	$(CC) -c $(mainFile);
