@@ -44,3 +44,32 @@ Design patterns with code examples in different languages.
 11. Facade
 	- c++,
 	- java,
+
+12. Flyweight
+	- c++,
+	- java,
+
+13. Proxy
+	- c++,
+	- java,
+
+14. Chain of Responsibility
+	- c++,
+	- java,
+
+15. Command
+	- c++,
+	- java,
+
+16. Interpreter
+	- c++ => to be implemented,
+	- java,
+
+17. Iterator
+	- c++,
+	- java, 
+
+
+
+
+
