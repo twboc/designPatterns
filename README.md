@@ -69,6 +69,10 @@ Design patterns with code examples in different languages.
 	- c++,
 	- java, 
 
+18. Mediator
+	- c++,
+	- java, 
+
 
 
 
