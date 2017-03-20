@@ -73,6 +73,36 @@ Design patterns with code examples in different languages.
 	- c++,
 	- java, 
 
+19. Memento
+	- c++,
+	- java, 
+
+20. Observer
+	- c++,
+	- java, 
+
+21. State
+	- c++,
+	- java, 
+
+22. Null Object
+	- c++,
+	- java, 
+
+23. Strategy
+	- c++,
+	- java, 
+
+24. Template
+	- c++,
+	- java, 
+
+25. Visitor
+	- java, 
+
+26. MVC
+	- c++,
+	- java, 
 
 
 
