@@ -104,6 +104,10 @@ Design patterns with code examples in different languages.
 	- c++,
 	- java, 
 
+27. Business Delegate
+	- c++,
+	- java, 
+
 
 
 
