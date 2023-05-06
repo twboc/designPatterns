@@ -2,14 +2,11 @@
 #include <iostream>
 #include "shape.cpp"
 
-rectangle::rectangle() {
-}
+rectangle::rectangle() { }
 
-rectangle::rectangle(const rectangle& orig) {
-}
+rectangle::rectangle(const rectangle& orig) { }
 
-rectangle::~rectangle() {
-}
+rectangle::~rectangle() { }
 
 void rectangle::draw(){
     std::cout << "Rectangle drawing()" << std::endl;

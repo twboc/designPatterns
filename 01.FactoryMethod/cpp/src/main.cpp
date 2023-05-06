@@ -3,8 +3,6 @@
 #include "./factory/shapeFactory.h"
 #include "./shape/shape.h"
 
-using namespace std;
-
 int main(int argc, char** argv) {
     
     shapeFactory* ShapeFactory = new shapeFactory();  
